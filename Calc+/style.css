@@ -1,0 +1,67 @@
+/* ########### Variables ########### */
+:root {
+	--color: #0f2841;
+	--colorSec: #375c81;
+	--mainBack: #cbe5fe;
+	--secBack: #90c4f7;
+	--mainBackHover: #c0dffc;
+	--secBackHover: #82bcf5;
+}
+/* ########### General Styles ########### */
+* {
+	box-sizing: border-box;
+	font: bold normal 28px "Montserrat";
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #4d8bc8;
+}
+.calc {
+	background-color: #ebf5ff;
+	width: 95%;
+	max-width: 400px;
+	margin: 100px auto;
+	padding: 35px 10px;
+	border-radius: 10px;
+}
+.calcDisplay {
+	background-color: var(--mainBack);
+	color: var(--color);
+	font-size: 34px;
+	padding: 25px;
+	border-radius: 10px;
+	margin: 5px;
+	text-align: right;
+	text-overflow: hidden;
+}
+.numKeys,
+.operatorKeys,
+.calculateKey {
+	width: 64px;
+	padding: 20px 21px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 10px;
+}
+.numKeys {
+	background-color: var(--mainBack);
+	color: var(--color);
+}
+.numKeys:active {
+	background-color: var(--mainBackHover);
+}
+.operatorKeys {
+	background-color: var(--secBack);
+	color: var(--colorSec);
+}
+.operatorKeys:active {
+	background-color: var(--secBackHover);
+}
+.calculateKey {
+	background-color: #0a5aaa;
+	color: var(--mainBack);
+}
+.calculateKey:active {
+	background-color: #05315c;
+}
