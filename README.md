@@ -1,2 +1,2 @@
-# Practices-JS
-JavaScript Practice Projects - PanbehDaneh
+# practice-projects
+My practice projects on the way to learning :)
